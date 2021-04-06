@@ -1,0 +1,45 @@
+lert_close_press.png" disableImg="ico_alert_close_disable.png" show="1" />
+    </BackPathCommondFilterWnd>
+    <PreivewPane>
+        <Item id="100" type="11" left="0" top="0" right="0" bottom="0" RoundedRadius="4" caption="PreviewViewTip" expandType="0" fontSize="16" fontWeight="600" fontColor="49,150,247" fontColor_disable="184,198,213" normalBorder="49,150,247" overBorder="49,150,247" pressBorder="49,150,247" normalBg="255,255,255" overBg="234,244,254" pressBg="203,229,253" disableBg="170,195,217" iconType="0" icon="" iconDisable="" />
+        <Item id="101" type="11" left="0" top="0" right="0" bottom="0" RoundedRadius="4" caption="Similar" expandType="0" fontSize="16" fontWeight="600" fontColor="255,255,255" fontColor_disable="184,198,213" normalBorder="49,150,247" overBorder="44,135,222" pressBorder="49,150,247" normalBg="49,150,247" overBg="44,135,222" pressBg="49,150,247" disableBg="255,255,255" iconType="0" icon="" iconDisable="" />
+    </PreivewPane>
+    <FilterFileBtn>
+        <Item id="0" caption="FilterBtn_all">
+            <FileTypeFilter>
+                <Extention Value="0">FilterBtn_all</Extention>
+                <Extention Value="1">Recent_files</Extention>
+                <Extention Value="2">FilterBtn_LostFiles</Extention>
+                <Extention Value="3">Desktop</Extention>
+                <Extention Value="4">RecycleBin</Extention>
+                <Extention Value="5">Gra</Extention>
+                <Extention Value="6">Doc</Extention>
+                <Extention Value="7">Vid</Extention>
+                <Extention Value="8">Aud</Extention>
+                <Extention Value="9">FilterBtn_Emails</Extention>
+                <Extention Value="10">Advanced_filter</Extention>
+            </FileTypeFilter>
+        </Item>
+    </FilterFileBtn>
+    <PreviewFilterBtn>
+        <Item id="0" caption="PreviewFilterBtn_all">
+            <FileTypeFilter>
+                <Extention Value="102">ReportViewTip</Extention>
+                <Extention Value="101">IconViewTip</Extention>
+                <Extention Value="103">SplitterViewTip</Extention>
+            </FileTypeFilter>
+        </Item>
+    </PreviewFilterBtn>
+    <PreviewDialog>
+        <window width="772" height="535" />
+        <Item id="1000" type="16" left="235" top="6" right="385" bottom="38" caption="ImgPreview" fontSize="16" fontWeight="500" fontColor="x7f8fa4" selFontColor="xffffff" normalBorder="x222a3e" overBorder="x3196f7" selBorder="x3196f7" normalBg="x273044" overBg="x273044" pressBg="x2b588b" disableBg="x273044" img="ico_image_nor.png" selImg="ico_image_sel.png" />
+        <Item id="1001" type="16" left="386" top="6" right="536" bottom="38" caption="TextPreview" fontSize="16" fontWeight="500" fontColor="x7f8fa4" selFontColor="xffffff" normalBorder="x222a3e" overBorder="x3196f7" selBorder="x3196f7" normalBg="x273044" overBg="x273044" pressBg="x2b588b" disableBg="x273044" img="ico_text_nor.png" selImg="ico_text_sel.png" />
+        <Item id="1002" type="11" left="492" top="443" right="612" bottom="479" RoundedRadius="4" expandType="1" caption="Recovery" fontSize="18" fontWeight="600" fontColor="255,255,255" normalBorder="49,150,247" overBorder="49,150,247" pressBorder="49,150,247" normalBg="49,150,247" overBg="49,150,247" pressBg="49,150,247" disableBg="204,204,204" iconType="0" icon="" iconDisable="" />
+        <Item id="1003" type="11" left="628" top="443" right="748" bottom="479" expandType="2" caption="Cancel" fontSize="18" fontWeight="600" fontColor="53,64,82" fontColor_disable="184,198,213" normalBorder="127,143,164" overBorder="127,143,164" pressBorder="127,143,164" normalBg="255,255,255" overBg="242,243,245" pressBg="223,227,232" disableBg="255,255,255" iconType="0" icon="" iconDisable="" />
+        <Item id="1004" type="6" left="736" top="421" right="760" bottom="425" normalImg="ico_close_pop.png" overImg="ico_close_pop.png" clickImg="ico_close_pop.png" />
+        <Item id="1005" type="6" left="350" top="0" right="0" bottom="0" normalImg="bestfit.png" overImg="bestfit_hover.png" clickImg="bestfit_press.png" />
+        <Item id="1006" type="6" left="394" top="0" right="0" bottom="0" normalImg="actualsize.png" overImg="actualsize_hover.png" clickImg="actualsize_press.png" />
+    </PreviewDialog>
+    <PreviewWindow>
+        <window width="950" height="630" bottomAreaHeight="86" scrollbarWndHeight="158" selectedTxtSize="14" />
+        <Item id="7000" type="11" left="788" top="520" right="938" bottom="556" expandType="1" RoundedRadius="4" caption="Recover

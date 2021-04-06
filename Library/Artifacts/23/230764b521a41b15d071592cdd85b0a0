@@ -1,0 +1,457 @@
+olor: #3165C6;
+    text-decoration: underline;
+}
+
+.__feedview__sidebarscaler
+{
+    height: 1em;
+    width: 0em;
+}
+
+/* FEED ITEM */
+
+.__feedview__content
+{
+    overflow: hidden;
+    position: relative;
+}
+
+h2.__feedview__feedItemTitle
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+a:link.__feedview__feedItemReadTitleLink, a:visited.__feedview__feedItemReadTitleLink, .__feedview__feedItemReadTitleSpan
+{
+    color: #828282;
+    text-decoration: none;
+}
+
+a:link.__feedview__feedItemUnreadTitleLink, a:visited.__feedview__feedItemUnreadTitleLink, .__feedview__feedItemUnreadTitleSpan
+{
+    color: #3165C6;
+    text-decoration: none;
+}
+
+a:hover.__feedview__feedItemReadTitleLink
+{
+    text-decoration: none;
+    color: #B5B5B5;
+}
+
+ a:hover.__feedview__feedItemUnreadTitleLink
+ {
+    text-decoration: none;
+    color: #3E80FA;
+ }
+
+.__feedview__feedItemPubDateAndAuthor
+{
+    font-size: 0.7em;
+    color: #828282;
+}
+
+.__feedview__feedItemTitleDelimiterUnread
+{
+    border-top: solid 1px #3165C6;
+    padding-bottom: 4px;
+}
+
+.__feedview__feedItemTitleDelimiterRead
+{
+    border-top: solid 1px #828282;
+    padding-bottom: 4px;
+}
+
+.__feedview__feedItemPubDateAndAuthor img
+{
+    vertical-align: middle;
+    width: 19px;
+    height: 14px;
+}
+
+.__feedview__feedItemBody
+{
+    font-size: 0.8em;
+    color: #000000;
+    line-height: 1.5em;
+    margin-top: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.__feedview__feedItemBody > p:first-child
+{
+    margin-top: 0px;
+}
+
+.__feedview__feedItemBody img
+{
+    margin: 4px;
+}
+
+.__feedview__feedItemComments
+{
+    font-size: 0.8em;
+    color: #3165C6;
+    margin-top: 12px;
+    clear: both;
+}
+
+.__feedview__feedItemEnclosure
+{
+    font-size: 0.8em;
+    color: #3165C6;
+    margin-top: 12px;
+}
+
+.__feedview__feedItemEnclosureStatus
+{
+    font-size: 0.8em;
+    font-style: italic;
+    color: #828282;
+}
+
+.__feedview__feedItemComments a:link, .__feedview__feedItemComments a:visited, .__feedview__feedItemEnclosure a:link, .__feedview__feedItemEnclosure a:visited
+{
+    color: #3165C6;
+    text-decoration: none;
+}
+
+.__feedview__feedItemComments a:hover, .__feedview__feedItemEnclosure a:hover
+{
+    color: #3165C6;
+    text-decoration: underline;
+}
+
+.__feedview__feedItemDelimiter
+{
+    clear: both;
+    height: 1.875em;
+}
+
+.__feedview__showallfooter
+{
+    font-size: 0.8em;
+    color: #3165C6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.__feedview__showallfooter a:link, .__feedview__showallfooter a:visited
+{
+    color: #3165C6;
+    text-decoration: none;
+}
+
+.__feedview__showallfooter a:hover
+{
+    color: #3165C6;
+    text-decoration: underline;
+}PA﻿body 
+{
+    direction: ltr;
+    
+    margin-left: 1.5625em;
+    margin-right: 0em;
+}
+
+.__feedview__mainbody
+{
+    margin-right: 14.0625em; /* 225px; */
+}
+
+/* SUBSCRIBE/PREVIEW HEADER */
+
+.__feedview__headers
+{
+    margin-right: 1.25em;
+}
+
+.__feedview__syncengineheader
+{
+    padding-left: 16px;
+}
+
+.__feedview__syncengineheader img
+{
+    margin-right: 8px;
+}
+
+.__feedview__justsubscribedhelpheader img
+{
+    margin-right: 8px;
+}
+
+.__feedview__subscribeheader p img
+{
+    margin-right: 8px;
+}
+
+.__feedview__inlineerror img
+{
+    margin-right: 8px;
+}
+
+/* FEED HEADER */
+
+.__feedview__feedHeader img
+{
+    margin-left: 12px;
+}
+
+.__feedview__feedHeaderImage
+{
+    float: right;
+}
+
+/* SIDEBAR */
+
+.__feedview__sidebar
+{
+    right: 0.75em;
+    top: 1.75em;
+}
+
+.__feedview__sidebarcontrols
+{
+    padding-left: 0.9375em;
+    padding-right: 0em;
+}
+
+.__feedview__arrowfilter
+{
+    background-position: left center;
+    background-image: url(res://ieframe.dll/active_filter.gif);
+    float: left;
+    margin-right: 1.81%;
+}
+
+.__feedview__arrowsortdown, .__feedview__arrowsortup
+{
+    float: left;
+    margin-right: 0.1875em;
+}
+
+.__feedview__arrowunread
+{
+   background-image: url(res://ieframe.dll/feedunreadarrow.png); 
+}
+
+.__feedview__arrowread
+{
+   background-image: url(res://ieframe.dll/feedreadarrow.png); 
+}
+
+.__feedview__sidebarheader
+{
+    padding-right: 0.9375em;
+}
+
+.__feedview__displaying_label
+{
+    float: left;
+}
+
+.__feedview__displaying_itemcount
+{
+    text-align: right;
+}
+
+.__feedview__filter_label
+{
+    float: left;
+}
+
+.__feedview__sort_label
+{
+    float: left;
+}
+
+.__feedview__itemcount
+{
+    margin-right: 2.0%;
+    text-align: right;
+}
+
+.__feedview__sidebaraction#_viewfeedprop_div_
+{
+    margin-left: 14px;
+}
+
+/* FEED ITEM */
+
+.__feedview__content
+{
+    margin-right: 1.25em; /* 20px; */
+}
+
+.__feedview__feedItemComments
+{
+    margin-right: 25px;
+    float: left;
+}
+
+.__feedview__feedItemEnclosure
+{
+    float: left;
+}
+
+.__feedview__feedItemEnclosureStatus
+{
+    margin-left: 5px;
+}
+
+.__feedview__feedItemComments img, .__feedview__feedItemEnclosure img
+{
+    margin-right: 8px;
+}
+
+.__feedview__showallfooter
+{
+    margin-right: 20px;
+}PA﻿body 
+{
+    direction: rtl;
+    
+    margin-right: 1.5625em;
+    margin-left: 0em;
+}
+
+.__feedview__mainbody
+{
+    margin-left: 14.0625em; /* 225px; */
+}
+
+/* SUBSCRIBE/PREVIEW HEADER */
+
+.__feedview__headers
+{
+    margin-left: 1.25em;
+}
+
+.__feedview__syncengineheader
+{
+    padding-right: 16px;
+}
+
+.__feedview__syncengineheader img
+{
+    margin-left: 8px;
+}
+
+.__feedview__justsubscribedhelpheader img
+{
+    margin-left: 8px;
+}
+
+.__feedview__subscribeheader p img
+{
+    margin-left: 8px;
+}
+
+.__feedview__inlineerror img
+{
+    margin-left: 8px;
+}
+
+/* FEED HEADER */
+
+.__feedview__feedHeader img
+{
+    margin-right: 12px;
+}
+
+.__feedview__feedHeaderImage
+{
+    float: left;
+}
+
+/* SIDEBAR */
+
+.__feedview__sidebar
+{
+    left: 1.5em;
+    top: 1.75em;
+}
+
+.__feedview__sidebarcontrols
+{
+    padding-right: 0.9375em;
+    padding-left: 0em;
+}
+
+.__feedview__arrowfilter
+{
+    background-position: right center;
+    background-image: url(res://ieframe.dll/active_filter_rtl.gif);
+    float: right;
+    margin-left: 1.81%;
+}
+
+.__feedview__arrowsortdown, .__feedview__arrowsortup
+{
+    float: right;
+    margin-left: 0.1875em;
+}
+
+.__feedview__arrowunread
+{
+   background-image: url(res://ieframe.dll/feedunreadarrow_rtl.png); 
+}
+
+.__feedview__arrowread
+{
+   background-image: url(res://ieframe.dll/feedreadarrow_rtl.png); 
+}
+
+.__feedview__sidebarheader
+{
+    padding-left: 0.9375em;
+}
+
+.__feedview__displaying_label
+{
+    float: right;
+}
+
+.__feedview__displaying_itemcount
+{
+    text-align: left;
+}
+
+.__feedview__filter_label
+{
+    float: right;
+}
+
+.__feedview__sort_label
+{
+    float: right;
+}
+
+.__feedview__itemcount
+{
+    margin-left: 2.0%;
+    text-align: left;
+}
+
+
+.__feedview__sidebaraction#_viewfeedprop_div_
+{
+    margin-right: 14px;
+}
+
+/* FEED ITEM */
+
+.__feedview__content
+{
+    margin-left: 1.25em; /* 20px; */
+}
+
+.__feedview__feedItemComments
+{
+    margin-left: 25px;

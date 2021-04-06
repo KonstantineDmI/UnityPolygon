@@ -1,0 +1,308 @@
+_B5_DISPLAY:                             RESDLL.UniresDLL.10033
+    ENV_B6_DISPLAY:                             RESDLL.UniresDLL.10034
+    ENV_ITALY_DISPLAY:                          RESDLL.UniresDLL.10035
+    ENV_MONARCH_DISPLAY:                        RESDLL.UniresDLL.10036
+    ENV_PERSONAL_DISPLAY:                       RESDLL.UniresDLL.10037
+    FANFOLD_US_DISPLAY:                         RESDLL.UniresDLL.10038
+    FANFOLD_STD_GERMAN_DISPLAY:                 RESDLL.UniresDLL.10039
+    FANFOLD_LGL_GERMAN_DISPLAY:                 RESDLL.UniresDLL.10040
+    ISO_B4_DISPLAY:                             RESDLL.UniresDLL.10041
+    JAPANESE_POSTCARD_DISPLAY:                  RESDLL.UniresDLL.10042
+    9X11_DISPLAY:                               RESDLL.UniresDLL.10043
+    10X11_DISPLAY:                              RESDLL.UniresDLL.10044
+    15X11_DISPLAY:                              RESDLL.UniresDLL.10045
+    ENV_INVITE_DISPLAY:                         RESDLL.UniresDLL.10046
+    RESERVED1:                                  RESDLL.UniresDLL.10047
+    RESERVED2:                                  RESDLL.UniresDLL.10048
+    LETTER_EXTRA_DISPLAY:                       RESDLL.UniresDLL.10049
+    LEGAL_EXTRA_DISPLAY:                        RESDLL.UniresDLL.10050
+    TABLOID_EXTRA_DISPLAY:                      RESDLL.UniresDLL.10051
+    A4_EXTRA_DISPLAY:                           RESDLL.UniresDLL.10052
+    LETTER_TRANSVERSE_DISPLAY:                  RESDLL.UniresDLL.10053
+    A4_TRANSVERSE_DISPLAY:                      RESDLL.UniresDLL.10054
+    LETTER_EXTRA_TRANSVERSE_DISPLAY:            RESDLL.UniresDLL.10055
+    A_PLUS_DISPLAY:                             RESDLL.UniresDLL.10056
+    B_PLUS_DISPLAY:                             RESDLL.UniresDLL.10057
+    LETTER_PLUS_DISPLAY:                        RESDLL.UniresDLL.10058
+    A4_PLUS_DISPLAY:                            RESDLL.UniresDLL.10059
+    A5_TRANSVERSE_DISPLAY:                      RESDLL.UniresDLL.10060
+    B5_TRANSVERSE_DISPLAY:                      RESDLL.UniresDLL.10061
+    A3_EXTRA_DISPLAY:                           RESDLL.UniresDLL.10062
+    A5_EXTRA_DISPLAY:                           RESDLL.UniresDLL.10063
+    B5_EXTRA_DISPLAY:                           RESDLL.UniresDLL.10064
+    A2_DISPLAY:                                 RESDLL.UniresDLL.10065
+    A3_TRANSVERSE_DISPLAY:                      RESDLL.UniresDLL.10066
+    A3_EXTRA_TRANSVERSE_DISPLAY:                RESDLL.UniresDLL.10067
+    DBL_JAPANESE_POSTCARD_DISPLAY:              RESDLL.UniresDLL.10068
+    A6_DISPLAY:                                 RESDLL.UniresDLL.10069
+    JENV_KAKU2_DISPLAY:                         RESDLL.UniresDLL.10070
+    JENV_KAKU3_DISPLAY:                         RESDLL.UniresDLL.10071
+    JENV_CHOU3_DISPLAY:                         RESDLL.UniresDLL.10072
+    JENV_CHOU4_DISPLAY:                         RESDLL.UniresDLL.10073
+    LETTER_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10074
+    A3_ROTATED_DISPLAY:                         RESDLL.UniresDLL.10075
+    A4_ROTATED_DISPLAY:                         RESDLL.UniresDLL.10076
+    A5_ROTATED_DISPLAY:                         RESDLL.UniresDLL.10077
+    B4_JIS_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10078
+    B5_JIS_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10079
+    JAPANESE_POSTCARD_ROTATED_DISPLAY:          RESDLL.UniresDLL.10080
+    DBL_JAPANESE_POSTCARD_ROTATED_DISPLAY:      RESDLL.UniresDLL.10081
+    A6_ROTATED_DISPLAY:                         RESDLL.UniresDLL.10082
+    JENV_KAKU2_ROTATED_DISPLAY:                 RESDLL.UniresDLL.10083
+    JENV_KAKU3_ROTATED_DISPLAY:                 RESDLL.UniresDLL.10084
+    JENV_CHOU3_ROTATED_DISPLAY:                 RESDLL.UniresDLL.10085
+    JENV_CHOU4_ROTATED_DISPLAY:                 RESDLL.UniresDLL.10086
+    B6_JIS_DISPLAY:                             RESDLL.UniresDLL.10087
+    B6_JIS_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10088
+    12X11_DISPLAY:                              RESDLL.UniresDLL.10089
+    JENV_YOU4_DISPLAY:                          RESDLL.UniresDLL.10090
+    JENV_YOU4_ROTATED_DISPLAY:                  RESDLL.UniresDLL.10091
+    P16K_DISPLAY:                               RESDLL.UniresDLL.10092
+    P32K_DISPLAY:                               RESDLL.UniresDLL.10093
+    P32KBIG_DISPLAY:                            RESDLL.UniresDLL.10094
+    PENV_1_DISPLAY:                             RESDLL.UniresDLL.10095
+    PENV_2_DISPLAY:                             RESDLL.UniresDLL.10096
+    PENV_3_DISPLAY:                             RESDLL.UniresDLL.10097
+    PENV_4_DISPLAY:                             RESDLL.UniresDLL.10098
+    PENV_5_DISPLAY:                             RESDLL.UniresDLL.10099
+    PENV_6_DISPLAY:                             RESDLL.UniresDLL.10100
+    PENV_7_DISPLAY:                             RESDLL.UniresDLL.10101
+    PENV_8_DISPLAY:                             RESDLL.UniresDLL.10102
+    PENV_9_DISPLAY:                             RESDLL.UniresDLL.10103
+    PENV_10_DISPLAY:                            RESDLL.UniresDLL.10104
+    P16K_ROTATED_DISPLAY:                       RESDLL.UniresDLL.10105
+    P32K_ROTATED_DISPLAY:                       RESDLL.UniresDLL.10106
+    P32KBIG_ROTATED_DISPLAY:                    RESDLL.UniresDLL.10107
+    PENV_1_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10108
+    PENV_2_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10109
+    PENV_3_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10110
+    PENV_4_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10111
+    PENV_5_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10112
+    PENV_6_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10113
+    PENV_7_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10114
+    PENV_8_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10115
+    PENV_9_ROTATED_DISPLAY:                     RESDLL.UniresDLL.10116
+    PENV_10_ROTATED_DISPLAY:                    RESDLL.UniresDLL.10117
+
+    USER_DEFINED_SIZE_DISPLAY:                  RESDLL.UniresDLL.10255
+}
+
+*Macros: StdInputBinNames
+{
+    UPPER_TRAY_DISPLAY:                         RESDLL.UniresDLL.10256
+    LOWER_TRAY_DISPLAY:                         RESDLL.UniresDLL.10257
+    MIDDLE_TRAY_DISPLAY:                        RESDLL.UniresDLL.10258
+    MANUAL_FEED_DISPLAY:                        RESDLL.UniresDLL.10259
+    ENV_FEED_DISPLAY:                           RESDLL.UniresDLL.10260
+    ENV_MANUAL_DISPLAY:                         RESDLL.UniresDLL.10261
+    AUTO_DISPLAY:                               RESDLL.UniresDLL.10262
+    TRACTOR_DISPLAY:                            RESDLL.UniresDLL.10263
+    SMALL_FORMAT_DISPLAY:                       RESDLL.UniresDLL.10264
+    LARGE_FORMAT_DISPLAY:                       RESDLL.UniresDLL.10265
+    LARGE_CAP_DISPLAY:                          RESDLL.UniresDLL.10266
+    CASSETTE_DISPLAY:                           RESDLL.UniresDLL.10267
+}
+
+*Macros: StdMediaTypeNames
+{
+    PLAIN_PAPER_DISPLAY:                        RESDLL.UniresDLL.10512
+    TRANSPARENCY_DISPLAY:                       RESDLL.UniresDLL.10513
+    GLOSSY_PAPER_DISPLAY:                       RESDLL.UniresDLL.10514
+}
+
+*Macros: StdTextQualityNames
+{
+    LETTER_QUALITY_DISPLAY:                     RESDLL.UniresDLL.10768
+    NEAR_LETTER_QUALITY_DISPLAY:                RESDLL.UniresDLL.10769
+    MEMO_QUALITY_DISPLAY:                       RESDLL.UniresDLL.10770
+    DRAFT_QUALITY_DISPLAY:                      RESDLL.UniresDLL.10771
+    TEXT_QUALITY_DISPLAY:                       RESDLL.UniresDLL.10772
+}
+
+*Macros: OtherStdNames
+{
+    PORTRAIT_DISPLAY:                   RESDLL.UniresDLL.11025
+    LANDSCAPE_DISPLAY:                  RESDLL.UniresDLL.11026
+    MONO_DISPLAY:                       RESDLL.UniresDLL.11030
+    COLOR_DISPLAY:                      RESDLL.UniresDLL.11031
+    8BPP_DISPLAY:                       RESDLL.UniresDLL.11032
+    24BPP_DISPLAY:                      RESDLL.UniresDLL.11033
+    NONE_DISPLAY:                       RESDLL.UniresDLL.11040
+    FLIP_ON_LONG_EDGE_DISPLAY:          RESDLL.UniresDLL.11041
+    FLIP_ON_SHORT_EDGE_DISPLAY:         RESDLL.UniresDLL.11042
+    ON_DISPLAY:                         RESDLL.UniresDLL.11090
+    OFF_DISPLAY:                        RESDLL.UniresDLL.11091
+    DOTS_PER_INCH:                      "dots per inch"
+    HT_AUTO_SELECT_DISPLAY:             RESDLL.UniresDLL.11050
+    HT_SUPERCELL_DISPLAY:               RESDLL.UniresDLL.11051
+    HT_DITHER6X6_DISPLAY:               RESDLL.UniresDLL.11052
+    HT_DITHER8X8_DISPLAY:               RESDLL.UniresDLL.11053
+}
+
+*Macros:  StdPersonalities
+{
+    PERSONALITY_LIPS_DISPLAY:       RESDLL.UniresDLL.11500
+    PERSONALITY_ESCP2_DISPLAY:      RESDLL.UniresDLL.11501
+    PERSONALITY_PPDS_DISPLAY:       RESDLL.UniresDLL.11502
+    PERSONALITY_CaPSL_DISPLAY:      RESDLL.UniresDLL.11503
+    PERSONALITY_KPDL_DISPLAY:       RESDLL.UniresDLL.11504
+    PERSONALITY_TextOnly_DISPLAY:   RESDLL.UniresDLL.11505
+    PERSONALITY_201PL_DISPLAY:      RESDLL.UniresDLL.11506
+    PERSONALITY_ART_DISPLAY:        RESDLL.UniresDLL.11507
+    PERSONALITY_ESCPage_DISPLAY:    RESDLL.UniresDLL.11508
+    PERSONALITY_ESCP_DISPLAY:       RESDLL.UniresDLL.11509
+    PERSONALITY_KS_DISPLAY:         RESDLL.UniresDLL.11510
+    PERSONALITY_KSSM_DISPLAY:       RESDLL.UniresDLL.11511
+    PERSONALITY_PAGES_DISPLAY:      RESDLL.UniresDLL.11512
+    PERSONALITY_PCL_DISPLAY:        RESDLL.UniresDLL.11513
+    PERSONALITY_RPDL_DISPLAY:       RESDLL.UniresDLL.11514
+    PERSONALITY_Unknown_DISPLAY:    RESDLL.UniresDLL.11515
+    PERSONALITY_HPGL2_DISPLAY:      RESDLL.UniresDLL.11516
+    PERSONALITY_PCLXL_DISPLAY:      RESDLL.UniresDLL.11517
+
+    PERSONALITY_HPGL2:     "HPGL2"
+    PERSONALITY_PCLXL:     "PCLXL"
+}
+
+*Macros: GraphicModes
+{
+    GRAPHICSMODE_RASTER_DISPLAY:     RESDLL.UniresDLL.11601
+    GRAPHICSMODE_HPGL2_DISPLAY:      =PERSONALITY_HPGL2_DISPLAY
+    GRAPHICSMODE_PCLXL_DISPLAY:      =PERSONALITY_PCLXL_DISPLAY
+}
+
+*Macros: HalftoneSettings
+{
+    DETAIL_HT_DISPLAY:              RESDLL.UniresDLL.11401
+    SMOOTH_HT_DISPLAY:              RESDLL.UniresDLL.11402
+    BASIC_HT_DISPLAY:               RESDLL.UniresDLL.11403
+}
+
+*NoPunctuationCharSubstitute?: TRUE
+*SupportLargeMasterUnits?: TRUE
+
+*MasterUnits: PAIR(457200, 457200)
+*MaxCopies: 999
+*Feature: PaperSize
+{
+*rcNameID: =PAPER_SIZE_DISPLAY
+*PrintSchemaKeywordMap: "PageMediaSize"
+*DefaultOption: LETTER
+*Option: A4
+{
+*rcNameID: =RCID_DMPAPER_SYSTEM_NAME
+*PrintSchemaKeywordMap: "ISOA4"
+*PrintableOrigin: PAIR(0, 0)
+*PrintableArea: PAIR(3780000, 5346000)
+}
+*Option: LETTER
+{
+*rcNameID: =RCID_DMPAPER_SYSTEM_NAME
+*PrintSchemaKeywordMap: "NorthAmericaLetter"
+*PrintableOrigin: PAIR(0, 0)
+*PrintableArea: PAIR(3886200, 5029200)
+}
+}
+*Feature: Orientation
+{
+*rcNameID: =ORIENTATION_DISPLAY
+*PrintSchemaKeywordMap: "PageOrientation"
+*DefaultOption: PORTRAIT
+*Option: LANDSCAPE_CC90
+{
+*rcNameID: =LANDSCAPE_DISPLAY
+*PrintSchemaKeywordMap: "Landscape"
+}
+*Option: PORTRAIT
+{
+*rcNameID: =PORTRAIT_DISPLAY
+*PrintSchemaKeywordMap: "Portrait"
+}
+}
+*Feature: InputBin
+{
+*rcNameID: =PAPER_SOURCE_DISPLAY
+*PrintSchemaKeywordMap: "JobInputBin"
+*DefaultOption: FORMSOURCE
+*Option: FORMSOURCE
+{
+*rcNameID: =AUTO_DISPLAY
+*PrintSchemaKeywordMap: "AutoSelect"
+}
+}
+*Feature: ColorMode
+{
+*rcNameID: =COLOR_PRINTING_MODE_DISPLAY
+*PrintSchemaKeywordMap: "PageOutputColor"
+*DefaultOption: Color
+*ConcealFromUI?: TRUE
+*Option: Color
+{
+*Name: "Color"
+*PrintSchemaKeywordMap: "Color"
+*DevBPP: 24
+*DrvBPP: 24
+}
+}
+*Feature: Resolution
+{
+*rcNameID: =RESOLUTION_DISPLAY
+*PrintSchemaKeywordMap: "PageResolution"
+*DefaultOption: Res300
+
+*Option: Res300
+{
+*Name: "300 x 300"
+*PrintSchemaNamespace: "http://schemas.microsoft.com/windows/2014/11/printing/generatedkeywords"
+*DPI: PAIR(300, 300)
+*TextDPI: PAIR(300, 300)
+*SpotDiameter: 100
+}
+}
+
+
+*Command: CmdCR { *Cmd : "" }
+*Command: CmdLF { *Cmd : "" }
+*Command: CmdFF { *Cmd : "" }
+*Command: CmdSendBlockData { *Cmd : "" }
+
+
+            £&Èrœ¼Œ FPB4Ô Ô9BMô¦²*U ½ OœbÄ½Š"@Ÿ+'Ñnç†€èƒ¡ª½+hd9U\Ä$}Ëæ, ÃºúÐˆ*2Qo¾ÑðtîÙshLÞÚŽm;¿7q/PJÄOfñ’ÝL¤¾s¿r¾ÊâÄ‰ˆ[†'CzS9‘eà€v!|t›á~)F€5! Žž(#ìíÀ‘z$ ¯€f9}é…c›ø’ƒÏêòØÜÁìþñþ!ÒËŠtæ#–(ºÇaûçŒÉÍB#”C'õ”)ôè1Ë´úX/´RPûDÀá©'OùGDy0ˆ`Ó¯l‚³Ë;FßJ¡"†H©ÜÄ~¸öàÏzµÀË8)E”„ÖÂeBvÕˆl¥%m“ó%1z kZ è(MªâÐ·WÌ\}pðŒI\à@RŠn1n+–†“1ÁR@ÐWIBá‰M‚>)p!Ï}õíÕqèçTôItFD\Kl9%snáBžôPî¸Õ¹Àil#~Ê–99eØ:#šñXm8/e˜ñŠÁŠ`®¦üEòÁ¬Å%û0ÀHÂp@.æX×yžÙúrehoo×*PÏy3tã–Â¤¨þ\Ø[ÔWäTóèÊ,Ó³Ee™S×(^DãtO¼X!õu.v2$Y‚äÙGp¢¼Õ*S=Ñ v4þ=89³æEÈÁ :œ…2¼®+VxtDF†?ïÂXÑØÒ;jc¥ù’..(Žw ÀõHÚ	º‚KŒhË¬€Æb…Á?¡õÁÔÍ7vœs¼‰€—É¹“'	¬²æ:™o¢=·ò¡¤-¶òz¬Tà§…í•îZÃ‘JaIJ>YaÃÌ‹ž‰'”ÓÀ¸½w.¼²øhí ÒA[¸jñè’ÒV@y=Êîê‹/šÌ—Œeh”*á‰·æàçŸž	¶¶®–yÜãÔE¢­Ã°Ùzzr°gñ©öˆ³jD'y)nÙœ;š£0æE&N—--}á…ÐéŒu¼<@oñ%gP6£—FÍ§¸¤H †1@ ¥Mg”y4OLãT(±…•@ÊysðŠ¼ÇèF^x˜.ÆwŒ!öˆËÓ*M‰pf¸›5Æ[&Ô¡(h–ƒ°d¯'‘Ëç(AŸíŽ;ª¹2Ø*‚ß9oH£±lS 40äÙÕÎ¨W„º:::ÂóÝ$Ôf2—ýï=ßË‚oÇ2–/ ‚QCj$çˆÑ×H‚DÞŠ ï·õ~K
+0oíè
+Å6¥ IŽJSïûµ÷9rD÷à‡ÊZ½d€+Ò‰ Vü&\´bYÈdìc T!Îƒ`¢V¶
+pŠÅÚZ­xðé1¶wq(€öŽê1¸#Â¿<Žß#D 	2²è%¯JËæ—86nb)Á#xÜ7Ü@8Ý`¤3œÙpÀsYX[³–MÅõ¶ Å ¤q8¶•–ˆHi\ßHh[£òìÐ^›Qñx/*„aä²ºiûru¹ø¶
+6 ðÑ†è|F-ÃŸ“’À‡GÚA=5)Ò M©<ï…pÙz€Ži;ÙFÏÄ¶_>%'‹ãCß{iš“¢°Ði	!·ÛÜòoáƒC÷|á|xyØ”=ÔZ¨˜
+ÏÕ§j‘
+Xþ^0.lJØG1P2T³O¯YbFšRÜ%
+¬‡÷7&›ëºûÓwc0 Î²;È™äeGÑðÚ¤c.<¸ï $Žßþ"µ½ûörò„úÀ— ñŠàœµcæ)–\3nªË"(,ºÉš?—	óVUv-õ™I
+µÔ&!ýáÑJ_VU o;fäâÅÎöN„hÒ™d}â\kÕ7k¾"ärùV‰òd&Øw×X'ˆ>Fë.!¤hŸ%.ÅÙ€§EnyzOÈ9ýð1 šÓ‹óciŠ\F=¡¾7¥±¬*
+9ÚÓØ³~cvÅÛs1J]WAj +„¬eÅÆwÇ‡î9ÞÎ5"1à¤þå{¿¬·Å¥caÄî67oô‰kÔ­C‚Ú(k–&1|`£oži èóˆ•@_FMæ+]B€ânŽµÛ`Hø³H¿@ úFµÚÑU\£^ñ«…aû^†³²  NF°õT¦¢ÊJ Í`'ÎÌá8F`C79‡ŽæË·“2®$²Š	«ôkàÂ€í¯®e Üs¶x8ô=E“ª OH:’Œ‹Ï€>Üiô1a“‘É\jå¯q¾]æ1ûß¶?ô	Ë$gÿ³Ÿ½ù%ÅpŽãáG“(w„B €ƒùŠŸhÂ=ì(1”Ø±ZC{¤UpÐösc0~¥På1¨áGÏ2?îíÌ~L>L28=@MüðùÁ+‚ÜÕ«WãŽ€­†¹”S€˜Ä^zé%¦uf?†^º$m&šÂÄ“gŸlhlx¶ãY&4Ž	bfƒ“0¡Åph!Îôd°{ ¢a¿_IA	(á<?¡V(Æ&½óþ¨ûàˆ'æ|É›ÁK"¡ùÛ,åáÑ„Ï¬¿(ºjþ©ó!ÊÃ 
+ËËs³Ìüìé…%|¹ŒÙ’NÂXp…"äõKö¼]"|éâK4ËÉEh'„¼S:O×LêqnD‚¸8xÈ ‹ Ëø<¸õ6^•åÒÐ%5ð€²cŽ>ô‘qï§/RÂÓ¡ú†â	Dª¶‹z¬ÌØ|5uFŒØÙçêpº;®¬"IUa›×eLéØªLñ‡4²¶ß$+„?$ERüÛôÄu°8.äzm€a«E¨úãÆB³ò~PIB”5?¬xùdî±“›–×Õ}{úzäS>GK÷\iµZ’Ô—Ê
+ýM‡†;º:äqs\Ö7@ ¾:YÏªàãÕ×U»)ú2ž )4˜ZtŠžúè²ïÔWû<LšCŸ¸ru?£Õ¶]D—Î%ÑÞ¶” @NA”âärCÀHñýe€žñKŠÎ„™rÑGÚŒUI®Æü”Ô`ø\¥\ÊºZÈ2_(ù„ˆÇ‚ U,ê¦»¶^Z˜Îš÷ÂvÅ®IåLnS½ê¦Ä&›#]D~¬¡7k}M½È…Æuæ£rÃ_Oä˜œølF}tŽ2"k9˜!S%¦ häïmúl	dÐ¬£3'¤Ç²ÒG¢þLˆX]xàÖlÀðÇ—m8ÒC ŸléIWg—›láÆ€^ªõFWÑièFš§ºZo¸jðÂ2‚c‰uÏr¼C¡ ZÇêÂì¤8ºÉø¥qf]>®…‚`¾$k-å™¨ÂÂÈ>"Bž„Šá„d@9nr–Ö
+œŠ,:Ð7Ù‡G	/SP\À×:êVÛ FÖT16¯™nôu;ÒM³ËÃ›t–Î°ª÷³Ë¦Í£›§ Q‚E$æá;>rßõµª‡—Û¬,q.¡¯ZåÙÛß¸½»£Û
+D’a\+ˆÍÇ‹hcÇ’·ÿÚí”ˆ¥(ÓWlå–ñ.ž+p°ˆZ!‹Ífò%%Üúæ=¥4èÐj|ÓÐòoˆ‡9…µØ¢µSaå™tÌŠ‰ ÒºE  ¹P
+p–ˆ+¹™°"£à{$·´ºÚcGÌß	^B]hû™hlã!§Ÿ0µCÖõvK@IY)1‘åç³}ÛöoÙÁ÷¦Ož9©fCQ8œSCddG›¤nf<MztšVônáq2ÓK±R@›ýÂ#(fèà’‹´S4cXúà@ö4g,;	—1íObär¬ O—ÀŸ14Øô¥!&RA446eI.ÃŸWgéYÚn&7^e2Iº—•Å3ËX¨ÓTþ)×^%®ýÊÄ0#›à~ë9, xÒýè¹gi±/!Vc« CË>ÍíM°Ä(@/6#sÁ+åÂš8<:»),¢0JIšÊ„Õ­ø>Þ}Übfˆ‡ÊÚ2_iÃ×™`eƒ"uŠ¶DB M	2õè¡BŽ %
+q tÉâšˆ@À÷èÙÙ	®}ª/G@æciÖnXz†‡>³ßüö›»zº<=ä‰tZŸâ(¨1Òà÷í6†®³uGúc;6ér ‚ö	ÛÙ €ðb!+0ÿœ+^Á;ŠåÆ¥‚çúÜFVˆŒer0øÔf."¡žÇçó(e‚G©ê+…ÀýÑŸ>úJ¥,ßÏ¼ba,nÇž0ýš/)Þ2Ã:3aè'úš›}õå+:[ÐéÝÏtg[ í`ËEú£ûè×ÿáëÙr¯ôAÃ+|…ü×	}ZÇðG(Ð_ãalfêxª^Nø×(¯,YX‰Ÿi?sµÂW½—·/ídv¬x¢G€>;ˆÒ0¯¯'bìÝ½÷3ú•É-¤“VÃ{{wí¥JÈ
+ ÿã'·¾­uçŽ![YG˜Î1hmmm_þŸ_öÎ}ä·?‚Þ¼½ÙS|Ôx
+€BV#
+J¾ó½ï zþƒßÿ„QâÈEz/T4Øˆ,nfù©©×.É}öa/Á-Nu—íiH'Ž>~(‘¾}$
+ÍO¸àqËw«?·o©©0¼ã7ïÐ¾£´­‚ENÈ8ïc*zð¡ãróaù ©Øéø~6‘ÐÒÉ­Ðøn{P3±aÝ Ê)–¡	s)ëòˆäÊ
+ª°ÈŽ~¤£
+Â—©™Ü‘—Ù”eÓµ.ÍOC/™àDH¥J—PDœ^¦i¶Ûa#B²ª*5õ…×Î=;ùø2+÷ü{Þóž÷ÜÐtƒéj‡Uíx]ó-7Kw÷ô°M8}ÎNN@ÚÖ²M=ôrËÍ·à¤M¾L˜üñ¿üø®?¼‹xüñÇ‰p±%‘Ó'ðŸ%Ž¹”9Ê´…SDuB-‡‚¼n°±IEÊ ½à¨ÌJq¬¤ªEÈªéïþÞï‚ø#ÈÛ9ù´	Ñ@ŸÐ·²¢è]ílÎPŽåkAAŽ-Í-z._P«­ªE¬2¹¶ª£›Ö ÉEô”ÞÀ‹ÈFËCPèéCñj“êÑËšWCeÕ®·íjû™™9íCw™Ëþéÿý-ßrÛ-„ô“ñ!d…zÊIQµ+è«)@£Ÿn}BÝÊ^MEzÃ­»{,‹\~d®RŠ@ï¹¯ÆÑÃ¦=E®A¬my
+3GŸiñDl'Rý<E‘«==»?gÅ©xá…9íäÜ>ÿìó_ùêWúË¯å%Ê—Ë½)€áT+F^‡'U†SAŠÃ‚ÄC…øÏëÄANÿÀ¼ÀôÂ,Ð€±ÐË¦uó(ùz;u›÷ëìaŠójP€¿2ìöD™ùÂò,”2ŸûŒf)žN'\cf"b±PmAþXE˜©˜¯`)š)`)  ·IDAT»ì¨‘<Om¿y^à“”N`äB#…`iAßrátTö";×´À–±çØÔ×ß‡EX`À”o>Ê|Ó|•’ö}çx±)9	¬Ä1`h¹Ò³h™[½ ˆÄÓ‹îa2^ÉÏåhl¿ûã*la0·1ùqˆ>q½LèÈ–ŽÏ¦ÖV5ÊÃ7>øŸ>HþCßyèÃ¿ýaYb(,,k3êô5u5HŽ–ji•PÊ²h&ò‰IÌèPö†‘ŽŽû5ÅtnÐ1MÚ¬7½¶ÞˆuY
+v¾_4©[…Ô"Bu.ÙýYëÀòåûÅÈôå Á- dýGžÜâ7FÇˆp9ÜuËÓÃ”eúA–Ec´5ËŸîl'sñÊ™hì‡©«k~’²nëE	ùž’èÙˆ»MÉâ‘7.7{_†€(× XíÔŠ3‰YsiT©‘ŽÓÍC˜Å¬©R[TsÔå¸xUm€ž´ÏA\áè "åb
+h¿2	– ½?#€Ö~tô=c_v4p ¸;ô£N™‘‹Â‚¾¯1øëUR![Ò´?Wæû[÷ìÚÓw)"!MÈB ïâ¨¬«|(ñÐ­·ÝJË=Ïô8xebØ~(ÚfÑîE›Å¤onBL¥Î¨°mÐ˜³0‚¦ŒbØ&ÃáOI™Zªâ½!‚~H%z¨…ˆPÀ[1ÝQç;o„'²;W/I%Ã¡¯2-oŒ…"àNŠB¯žîú‘ÎRŒçbô×O)h*òèÖ-n;øŽxákGX˜Ô•¶ÕÀ[Ÿ5³¢˜	b,ÁTƒIÀE.¾•¶z7>‰…‹±	…ÍI|¼exÎäqÁ	MÐ.ÉÇ»" ™AÄö+Ï›‡rÏtÀÄK	ì‘Hë°=¢zþ\>.ÓÆdæ˜*Ù’ˆ%ÐS€Âbøó‹=¢fÙb[Øô"~š böË"aŸGcë½4Àº˜ÎÚí3]Ã]~&Öðe{]uùuú·»‰Ø
+{Qb`ÜT–…ô‚ð\Ç9³lGß!"ÐIã³xeÖðÄ\+ó3éËXpD¨9éœÕA>ñÌáR$êâ‹„Šè%µú£‰Hìˆ×“¿|Š/$Y±¬•ÌªrÐ	"`VŒq~=é€XŒ†«ä}BÒ¹ô\ðžš£t#6vsN«²mL™ƒ.äzÅz‹5µìíÕvfF$7‡Ò‡<ÃY)!;}ÅvðÔÃ_ßÀø o‘.„žO3a¿²ù‰^žFE4ñ#:[ŠLÆP [ÚXöÒ9pÎøõmž”î2#ƒ†±KñÊÐ¬H¦VãÑÌÍ$ø€>#Ýæa@M¹¸ãjiÐ>ì.[¿rÅXÌòÂäÒŒ ï.à´Ãu¾ÛtB0òâ(óß#Ð‹ùžF;œöØãbwZ&=õÐÑ'Ê ;¾lES,jÅG’ËÎBà."àƒ8r7áysÀ£-7mÚ¤fsæp±Ò ;‚0Ç$Î ‘SEªKŠ¶D»üC®dPè€·ä…Ñ¶Ym_PuB}vÆý_=ýß'¢5sQø8$eºíMi<× ,ûx@Û‘þçû1'Áý)ÝõœÙ! .UXx©(Š?/Üý¤éº2Hµ·ÇZÅ&b¾I„Qþš®kzü	³mh€Þp|j‘ƒÅŽž8ÚºµUµmSñ¼ÉþàXiÄUÙ«Å²-}`&{qñŸ’Šú †VBi2òÈÃ;™ÖaÂC3P²ÀDcOáhÏHÌ‚Á®?Âr¡È´7Í´#âóò02BŸ%X)”çbg=*ü…àŠÎBµö€‘å4–‚t€:ÐÇª'ÃÞ5äýèW¼¢ …lÙýÄÝ­{Z[oj%Wá‹ý>K`üÔ&ÐôÓé_ààÅÓ ´¬\j!èƒf ‘Zsˆs'¤‡5R5KŠuÂ®¸¨×âv™*Ð+ça@éÐ$q÷[w+‹«,?"îÉìY~êœ§äD|•s`ANá×‹l#û¥(@pw°rë˜ p<Žø"_Úo~VØ"bÀI_ÀNUHƒ
+Á‡g¹OŠ5e*BÝ¤üôž˜^?ÿ…Ïc7FToŒ(¾i!üò©ïç¢Úo¦tV®µ” Ù»ˆC*[y5ö¿öÕ¯ýÖïü–ê²;F –RCùøðÜöy™9ì±ÛDFùºj«“ì€éLi_þ[³Åë(W5ûÈ¿Øª™†¿³p æC#ÒÀ…¡
+ˆU‘h3
+I°8áµY°F:”Á»+ÌÛIÔ("„Òo ó8Ê[¶Õ…–)@È!Çv\Mü¼ÙÇ>cÄGBÇA#N\þÏHr(ŠùF3ÒÝ¸”S†ïP’ò®·¿‹ƒ„Ù-Éµyg³f²:K:íØ›XÚŒÄD‘(;¦¬»¨„áå.'DZZZ˜ÏÜ íÅÂýÆâ0dKaI›r`û,ôÑ"œ…–âƒ¼Uw4]$‘²ÐBoÒOñ›ðKäÙÎCL3³¬ËÒgla¯ÂÁ“ßrûm·«-©Úñƒƒ]q9‚]è¹à ‘\¦¶¶<úýG=}™m5øË/ü%øÑOôÀýì:°«í°ÙÐC_`¯+1—[öDÊÎ;è¥ì¬S1ù+î{ç¾óÏžwß|¸k)ÞŽïÖ'«2‰ìåÅåØ
+5=¸ìÒ¡b›t.Vú^0sP"Tˆp…¶~½»ÒÃ¹±2HÊ×¾òµP‡?ôºŽ«Á³ZŸƒ÷§Ê<"†à‰+#Ÿúô§sÇ~i5Q&uàªç‘Ë#+ëk}”è‡Åˆ{×os
+˜¥+ÃiÁ¡¯aI-ýkù3Ô™Ø xâô	J¶¶ØL¬·oß‡Ñ9^á™:wÞuçƒßyÐ?ã¶ŸÆèÞ¿š¸†¿J
+„Ü8õjá˜ÿ°0»Z¶µ(eóõ›Û—¡',és@˜xí8ÎèlJ`ìkøb ‡?5#öÂvA4sÉŽZÈèÙöc;ä«@ÿµ¿‡ý¯õëÖˆê 5³Rd®½{ö²)q%’ÿóÃwÝmK’\X1ÁHÀ•wF46]2›«ßxUj=Ä¨Byeié±¢’ªåØ‚ÔŽµÉ¾Œá“Wúä}r÷[vßûÅ{/\`Û¢ŠùùÜ¢Fø‘Ïu<çí,›ä#v§¬=J{ˆ«æ„«±Jêƒ—þ”«Õ=ø«ÉZ¶î½hFFˆ˜\r *Ö¢µõ•³N½åÁ©Aâz56Eù™)Á«xÙha ¢¸Â,hÁ=ŸwfbúŽ¸ªœx©=•°¯t—V0N‡fâ5aN>B\S#{öïùÄ'>A\
+„F1µ]ÝÑàÏý·ˆ„¼¼Zû!ë_Y&´òºÓùÊb¤pˆ^ÊOéSgN‘‡§£"2‘â&b":ópÓÌtHHtÃuøTuÅÌ¢UfÚãb\ˆ¨‰C|(™U„œý:QÁ8 Ë¤‹0oEüÊyE±×– /Nà+ÉCí`²©0yÕYÇ{½åùå˜å-RQ.¡Yuè‡}`‰8-'S‡>ÙZ’tû­g%ì#xÌZ€[õe[6ÃoÄšÈB”F(Â¶cDñA–
+(ÌÖuB™ùBAB!ò™Ï|FÍºäÄ¨¬P ýÖ7¿õáÿüa¥_…å]a–úÖ7¾ÅRblÇÏ°©û¾yßG>úïÃÉã'1—=|”{7ßz3é‡þå‰séÄîÝ¦bjÜ¸~#aøWŽ™§‰sˆg:~•ÇÒ­¼y+a]c·FÒ²–(I²’¯1Ž-Éla	X?FfÞVk¹”çdöJ‚(m›L’æ›UQXA#±Ÿå¼) Íæ4ù"*æ@d›Çw<–¼‰ßñ;Â"×-zJ{Bç­°Ÿ<ÝoÃºèð‰{›&D¥Ø¥fz:'ujƒ¿*RŒÍ½ý±ýûöSþèÑ£2¹³kcçÎ‡=\”g âLÊ·=Ö|`ªl°%Ô„·ïû¬©”™Õæ²ù)`üA4.¥<òÑNLâL`Í°Â¸/TCbNª*ó²3Ê”ó%yy,Ó«‰ÏýÙç2O3µöÞ/Ü‹…öØác¦FšÖ®ön|’•P¦‹ÏÞóYÎÓÆnÄÁ;>|Jo¼Ï;‘xïmïUƒŸø£O¸uD»±I×áƒÿÁ&R&6ÜÖdÆÇ Ð#ûæø7ÜqzŒB5KÈiSœ]º÷~À bÛìÝt7é à“Ÿø$‘=­&OÜkO‰¯+@7“•ù¿¬ˆä`'è[m‘ôô›`àzªƒFœ m2u*»`¤v(ãÂòÇG¸ÙÁ‘ynöÿðCFbVr´eÜG(iröS¨Ê ßÉÇOfÛ
+öycNp«ð
+Ë§¢p 4••W ÛîBƒ6§[ùá¡1U•'l{Â¤dÂc'2¦ê¥ÀÄ¯PûÕVe™-ˆÑ¤Ù@S²Iˆ²R©Œ(@8`c›
+ÐN Ž²]|ì®±·{?ƒq™Ö)Sj?´…Mˆ€2®¸üŸÏaË“—9°Œá¹áœ²†—	?ónûì…s#™ù†ô°ofòKÇ	kûœ¿<`O¥—aÔONÛÑÿ8ÄužS:ZFI™¬áð=A¹XæçÇûÙ1$×[ýV^•EÑ¡<OÅ1w#``¢a]ˆE!ËÊômó¦Íç_Šu]$9?ðË`D>ôG›:¿*\€ã€=_¤ôµÕðL3jmZ·ÉÕr4¤‡@Íð¼!OöÄÐuÓ¹!RýI‘l€"ç*Wv&‰
+ˆAÕ."áV€W©Zô’ŽÂÇ
+ú¤„YŽé°$q>už“Â­¾o¦;ô±k:ÜñžËG9ÏIyÅÛ×oKÏ2¾W|h1!6ýŠµ(ó½PU¾À48 %_kA4§Y( '%¼e/#?Rüì¶0Wq}±ŠøJ¸¯,üŠ)á’ÔëÄYC³ÏùTp°F¶@"Á™Š€" Üÿv“þÇ‡¹ïÞe22WxRIh¶õ•hL'Ïžäl¢@D«Þ”ïh·±É±B~žæCß}H,þƒFÃÒ&cÿ¾ÿuÅ íþïöÔDÅòëßø:À!óŸ¼Ë$.úyß?Ü€ƒ¦º&<ÈI„PÂ97**bAÈ:t^=‰_úâ—>zçG™fXcøö}ß†¥|þÏ?¿ï]û@@h(”Ï«¬oìQÍ¶™9|ý#ô òDþ?>ûÉ·ÏdÇ¤    IEND®B`‚€¹*             P      PreviewAssetData   AssetInfo_______    

@@ -1,0 +1,458 @@
+r>
+        <tr>
+            <!-- This row is for HTTP status code, as well as the divider-->
+            <td id="errorCodeAlign" class="errorCodeAndDivider" align="right">
+                <div class="divider">
+                </div>
+            </td>
+        </tr>
+        <!-- Error Body -->
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+            <td id="likelyCausesAlign" valign="top" >
+                <h3 id="likelyCauses">
+                    Internet Explorer не має достовірної інформації про ім'я користувача й пароль для цього інформаційного каналу.</h3>
+            </td>
+        </tr>
+      
+        <!-- back to previous page -->
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+            <td id="goBackAlign" valign="middle">
+                <h4>
+                    <table>
+                        <tr>
+                            <td valign="top">
+                                <img src="bullet.png" border="0" alt="" class="actionIcon"><span id="goBackContainer"></span>
+                            </td>
+                            <td valign="top">
+                                <noscript id="goBack">Повернутися до попередньої сторінки.</noscript>
+                            </td>
+                        </tr>
+                    </table>
+                </h4>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html><?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:feedui="url:schemas-microsoft-com:feed-ui" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cfi="http://www.microsoft.com/schemas/rss/core/2005/internal" version="1.0">
+
+  <!-- Output method is XML even though we output the HTML fragment here. Don't add dependencies on the specifics of the HTML output method,
+  and the result has to be a valid XML. See bug 1715807 for more info. -->
+  <xsl:output method="xml" omit-xml-declaration="yes"/>
+    
+  <xsl:template match="/rss/channel">
+
+    <!-- Feed name could be optional, so we use Untitled in that case -->
+    <xsl:variable name="feedTitle">
+      <xsl:choose>
+          <xsl:when test="title"><xsl:value-of select="title"/></xsl:when>
+          <xsl:otherwise>Без імені</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <!-- Sync engine turned off warning box -->
+    <div id="_syncwarnheader_" class="__feedview__syncengineheader" style="display: none;">
+        <div><b><span class="__feedview__loctxt">Підписані інформаційні канали не оновлюються автоматично, тому що цей параметр вимкнуто.</span></b></div>
+        <div><img src="res://ieframe.dll/syncengine.png" border="0"/><span class="__feedview__loctxt"><a href="#" id="_turnonsynceng_">Увімкнення автоматичного оновлення інформаційних каналів</a></span></div>
+    </div>
+
+   <!-- Just Subscribed Help Box -->
+   <div id="_justsubscribedhelpheader_" class="__feedview__justsubscribedhelpheader" style="display: none;">
+      
+          <div id="_miniexphelpnondocked_" style="display: none;">
+              <p><b><span class="__feedview__loctxt">Підписку на цей інформаційний канал здійснено успішно.</span></b></p>
+              <p><span class="__feedview__loctxt">Оновлений вміст можна переглянути за допомогою Internet Explorer та інших програм, які використовують Загальний список каналів.</span></p>
+              <p class="__feedview__justsubscribedbutton"><a href="#" id="_viewminiexpfeeds_"><img id="_viewminiexpfeeds_" src="res://ieframe.dll/favcenter.png" border="0"/><span id="_viewminiexpfeeds_" class="__feedview__loctxt">Переглянути мої інформаційні канали</span></a></p>
+          </div>
+       
+          <div id="_miniexphelpdocked_" style="display: none;">
+              <p><b><span class="__feedview__loctxt">Підписку на цей інформаційний канал здійснено успішно.</span></b></p>
+          </div>
+
+   </div>
+
+    <!-- Subscribe header when feed is in preview mode -->
+    <div id="_subscribeheader_" class="__feedview__subscribeheader" style="display: none;">
+       
+        <xsl:choose>
+            <xsl:when test="link"><div class="__feedview__subscribeheadertitle"><a href="{link}" title="{link}"><xsl:value-of select="$feedTitle"/></a></div></xsl:when>
+            <xsl:otherwise><div class="__feedview__subscribeheadertitle"><xsl:value-of select="$feedTitle"/></div></xsl:otherwise>
+        </xsl:choose>
+
+        <p><span class="__feedview__loctxt"><b>Переглядається інформаційний канал із часто оновлюваним вмістом.</b> Після підписки на інформаційний канал він додається до спільного списку каналів. Оновлена інформація з інформаційного каналу автоматично завантажується на комп’ютер, і її можна переглянути за допомогою Internet Explorer або інших програм. <a href="#" id="_aboutfeedshelp_">Докладніше про інформаційні канали.</a></span></p>
+        <p class="__feedview__subscribeheaderbutton"><a id="_subscribe_" href="#"><img border="0" src="res://ieframe.dll/Subscribe_feed.gif" id="_subscribe_" alt="Кнопка &quot;плюс&quot;"/><span id="_subscribe_" class="__feedview__loctxt">Підписатися на цей інформаційний канал</span></a></p>
+    
+    </div>
+
+    <!-- Inline error messages -->
+    <xsl:choose>
+      <xsl:when test="@cfi:lastdownloaderror!='None'">
+          <div class="__feedview__inlineerror">
+              <span class="__feedview__loctxt">
+                <xsl:choose>
+                    <xsl:when test="@cfi:lastdownloaderror='Failed'">Internet Explorer не вдалося оновити цей інформаційний канал. Спробу буде повторено пізніше.</xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Invalid Feed Format'">Internet Explorer не вдалося оновити інформаційний канал через зміну формату.</xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Normalization Failed'">Цей інформаційний канал містить помилки. <span class="__feedview__inlineerror_fontweightnormal">Internet Explorer спробує знову оновити цей інформаційний канал пізніше.</span></xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Auth Failed'">Браузеру Internet Explorer не вдалося оновити захищений паролем інформаційний канал.</xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Access Denied'">Браузеру Internet Explorer не вдалося оновити захищений паролем інформаційний канал.</xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Auth Denied'">Браузеру Internet Explorer не вдалося оновити інформаційний канал, захищений паролем.<span class="__feedview__inlineerror_fontweightnormal">Автентифікацію заборонено.</span></xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Not Exist'">Інформаційний канал уже не існує.</xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Unsupported DTD'">Інформаційні канали із шаблоном DTD не підтримуються.</xsl:when>
+                    <xsl:when test="@cfi:lastdownloaderror='Size Limit Exceeded'">Програма Internet Explorer не може оновити цей інформаційний канал, оскільки обсяг вмісту перевищує обмеження для завантаження.</xsl:when>
+                    <xsl:otherwise>Internet Explorer не вдалося оновити інформаційний канал.</xsl:otherwise>
+                </xsl:choose>
+              </span>
+              <xsl:choose>
+                <xsl:when test="@cfi:lastdownloaderror='Auth Failed' or @cfi:lastdownloaderror='Access Denied'">
+                  <p class="__feedview__subscribeheaderbutton">
+                    <a href="#" id="_viewfeedauthandrefresh_">
+                      <img id="_viewfeedauthandrefresh_" border="0" src="res://ieframe.dll/keysauth.png" alt="Піктограма пароля"/>
+                      <span id="_viewfeedauthandrefresh_" class="__feedview__loctxt __feedview__inlineerror_fontweightnormal">Оновити ім'я користувача і пароль</span>
+                    </a>
+                  </p>
+                </xsl:when>
+              </xsl:choose>
+          </div>
+      </xsl:when>
+    </xsl:choose>
+
+    <!-- Feed header -->
+    <div id="htmlNonSecureZone"><!-- Do not remove, see CFeedViewer::_IsElementInHTMLSecureZone -->
+
+          <div id="_feedheader_" class="__feedview__feedHeader" style="display:none">
+
+              <xsl:if test="image/url">
+
+                  <a>
+                      <xsl:attribute name="href"><xsl:value-of select="image/link"/></xsl:attribute>
+                      <xsl:attribute name="width"><xsl:value-of select="image/width"/></xsl:attribute>
+
+                      <img class="__feedview__feedHeaderImage">
+                          <xsl:attribute xmlns:xsl="http://www.w3.org/1999/XSL/Transform" name="src"><xsl:value-of select="image/url"/></xsl:attribute>
+                          <xsl:attribute xmlns:xsl="http://www.w3.org/1999/XSL/Transform" name="alt"><xsl:value-of select="image/title"/></xsl:attribute>
+                          <xsl:attribute xmlns:xsl="http://www.w3.org/1999/XSL/Transform" name="border">0</xsl:attribute>
+                          <xsl:attribute xmlns:xsl="http://www.w3.org/1999/XSL/Transform" name="alt">Зображення каналу</xsl:attribute>
+                      </img>
+                  </a>
+
+              </xsl:if>
+
+              <xsl:choose>
+            <xsl:when test="link">
+                <div class="__feedview__feedTitle"><a href="{link}"><xsl:value-of select="$feedTitle"/></a></div>
+            </xsl:when>
+            <xsl:otherwise>
+                <div class="__feedview__feedTitle"><xsl:value-of select="$feedTitle"/></div>
+            </xsl:otherwise>
+         </xsl:choose>
+          
+         <xsl:choose>
+              <xsl:when test="feedui:lastBuildDate"><div class="__feedview__feedPubDate"><xsl:value-of select="feedui:lastBuildDate"/></div></xsl:when>
+              <xsl:otherwise><xsl:if test="feedui:pubDate"><div class="__feedview__feedPubDate"><xsl:value-of select="feedui:pubDate"/></div></xsl:if></xsl:otherwise>
+         </xsl:choose>
+
+      </div>
+
+    </div>
+
+    <div class="__feedview__feedContentDelimiter"></div>
+
+</xsl:template>
+  
+  <xsl:template match="/rss/channel/item"> 
+
+    <div>
+
+        <xsl:if test="cfi:id">
+            <a><xsl:attribute name="name"><xsl:value-of select="cfi:id"/></xsl:attribute><xsl:text></xsl:text></a>
+        </xsl:if> 
+
+        <xsl:if test="title">
+
+            <xsl:choose>
+            <xsl:when test="link">
+            
+                <xsl:choose>
+                    <xsl:when test="cfi:read = 'false'">
+                        <h2 class="__feedview__feedItemTitle"><a class="__feedview__feedItemUnreadTitleLink" href="{link}"><xsl:value-of select="title"/></a></h2>
+                    </xsl:when>
+                    <xsl:when test="cfi:read = 'true'">
+                        <h2 class="__feedview__feedItemTitle"><a class="__feedview__feedItemReadTitleLink" href="{link}"><xsl:value-of select="title"/></a></h2>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h2 class="__feedview__feedItemTitle"><a class="__feedview__feedItemUnreadTitleLink" href="{link}"><xsl:value-of select="title"/></a></h2>
+                    </xsl:otherwise>
+                </xsl:choose>
+                    
+             </xsl:when>
+             <xsl:otherwise>
+                    
+                <xsl:choose>
+                    <xsl:when test="cfi:read = 'false'">
+                        <h2 class="__feedview__feedItemTitle"><span class="__feedview__feedItemUnreadTitleSpan"><xsl:value-of select="title"/></span></h2>
+                    </xsl:when>
+                    <xsl:when test="cfi:read = 'true'">
+                        <h2 class="__feedview__feedItemTitle"><span class="__feedview__feedItemReadTitleSpan"><xsl:value-of select="title"/></span></h2>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h2 class="__feedview__feedItemTitle"><span class="__feedview__feedItemUnreadTitleSpan"><xsl:value-of select="title"/></span></h2>
+                    </xsl:otherwise>
+                </xsl:choose> 
+                    
+             </xsl:otherwise>
+             </xsl:choose>
+            
+        </xsl:if>
+        
+        <xsl:choose>
+            <xsl:when test="cfi:read = 'false'">
+                <div class="__feedview__feedItemTitleDelimiterUnread"></div>
+            </xsl:when>
+            <xsl:when test="cfi:read = 'true'">
+                <div class="__feedview__feedItemTitleDelimiterRead"></div>
+            </xsl:when>
+            <xsl:otherwise>
+                <div class="__feedview__feedItemTitleDelimiterUnread"></div>
+            </xsl:otherwise>
+        </xsl:choose>
+
+        <div class="__feedview__feedItemPubDateAndAuthor">
+                    
+            <xsl:if test="feedui:pubDate">
+                <span><xsl:value-of select="feedui:pubDate"/></span>
+            </xsl:if>		
+
+            <xsl:if test="feedui:pubDate and author">
+                <span> | </span>
+            </xsl:if>
+
+            <xsl:if test="author">
+                <span><xsl:value-of select="author"/></span>
+            </xsl:if>
+            
+            <xsl:if test="link">
+
+                <xsl:choose>
+
+                    <xsl:when test="cfi:read = 'false'">
+                        <span class="__feedview__arrowunread"><a class="__feedview__feedItemUnreadTitleLink" title="Go to full article" href="{link}"><img src="res://ieframe.dll/feedarrowtrans.png" border="0" alt="Повний текст статті"/></a></span>
+                    </xsl:when>
+                    <xsl:when test="cfi:read = 'true'">
+                        <span class="__feedview__arrowread"><a class="__feedview__feedItemReadTitleLink" title="Go to full article" href="{link}"><img src="res://ieframe.dll/feedarrowtrans.png" border="0" alt="Повний текст статті"/></a></span>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <span class="__feedview__arrowunread"><a class="__feedview__feedItemUnreadTitleLink" title="Go to full article" href="{link}"><img src="res://ieframe.dll/feedarrowtrans.png" border="0" alt="Повний текст статті"/></a></span>
+                    </xsl:otherwise>
+                </xsl:choose>
+
+            </xsl:if>
+
+        </div>
+
+        <div class="__feedview__feedItemBody">
+          <xsl:choose>
+            <xsl:when test="description[@type='xhtml']">
+              <xsl:copy-of select="description/*"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of disable-output-escaping="yes" select="description"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </div>
+
+        <xsl:if test="comments">
+            
+          <div class="__feedview__feedItemComments">
+            <a href="{comments}"><img src="res://ieframe.dll/feedcomments.png" border="0" width="15" height="16" alt="Перехід до приміток"/><span class="__feedview__loctxt">Примітки <xsl:if test="slash:comments">(<xsl:value-of select="slash:comments"/>)</xsl:if></span></a>
+          </div>
+            
+        </xsl:if>
+        
+        <xsl:if test="enclosure">
+            
+            <xsl:for-each select="enclosure[position()=1]">
+
+              <xsl:variable name="enclosureExt">
+                  <xsl:call-template name="extractFileExtension">
+                      <xsl:with-param name="url" select="normalize-space(@url)"/>
+                  </xsl:call-template>
+              </xsl:variable>
+                
+              <div class="__feedview__feedItemEnclosure">
+                <a>
+                  <xsl:attribute name="href">
+                    <xsl:choose>
+                        <xsl:when test="@cfi:downloadstatus">
+                            <xsl:choose>
+                                <xsl:when test="@cfi:downloadstatus!='Downloaded'">
+                                    <xsl:value-of select="@url"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="@cfi:path"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="@url"/>
+                        </xsl:otherwise>
+                     </xsl:choose>
+                  </xsl:attribute>
+                  
+                  <img border="0" width="16" height="16" alt="Відкрити файл вкладення">
+                    <xsl:attribute xmlns:xsl="http://www.w3.org/1999/XSL/Transform" name="src">
+                        <xsl:choose>
+                            <xsl:when test="@cfi:downloadstatus='Downloaded'">
+                                <xsl:call-template name="iconForEnclosure">
+                                    <xsl:with-param name="ext" select="$enclosureExt"/>
+                                    <xsl:with-param name="isDownloaded">true</xsl:with-param>
+                                </xsl:call-template>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:call-template name="iconForEnclosure">
+                                    <xsl:with-param name="ext" select="$enclosureExt"/>
+                                    <xsl:with-param name="isDownloaded">false</xsl:with-param>
+                                </xsl:call-template>
+                            </xsl:otherwise> 
+                        </xsl:choose>
+                    </xsl:attribute>
+                  </img>
+
+                  <xsl:value-of select="../feedui:enclosureName"/>
+                    
+                </a>
+
+                <xsl:if test="@cfi:downloadstatus">
+                    <span class="__feedview__feedItemEnclosureStatus"><span class="__feedview__loctxt">
+                        <xsl:choose>
+                            <xsl:when test="@cfi:downloadstatus='Downloaded'">(Завантажено)</xsl:when>
+                            <xsl:when test="@cfi:downloadstatus='In Progress'">(Очікування)</xsl:when>
+                            <xsl:when test="@cfi:downloadstatus='Error'">
+                                <xsl:choose>
+                                    <xsl:when test="@cfi:lastdownloaderror='Download Blocked'">(Помилка завантаження – заблокований тип файлу)</xsl:when>
+                                    <xsl:when test="@cfi:lastdownloaderror='Size Limit Exceeded'">(Помилка завантаження – розмір файлу перевищує обмеження для завантаження)</xsl:when>
+                                    <xsl:when test="@cfi:lastdownloaderror='Unsupported Auth'">(Помилка завантаження – захищено паролем)</xsl:when>
+                                    <xsl:otherwise>(Помилка завантаження)</xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                        </xsl:choose>
+                    </span></span>
+                </xsl:if>
+                  
+              </div>
+                
+            </xsl:for-each>
+           
+        </xsl:if>
+        
+    </div>
+
+    <div class="__feedview__feedItemDelimiter"></div>
+
+  </xsl:template> <!-- feed item output -->
+
+  <xsl:template name="iconForEnclosure">  <!-- return enclosure icon image file name -->
+      
+      <xsl:param name="ext"/>
+      <xsl:param name="isDownloaded"/>
+
+      <xsl:variable name="iconFile">
+          <xsl:choose>
+              <xsl:when test="$ext='doc' or $ext='xls' or $ext='ppt'">
+                  <xsl:if test="$isDownloaded='false'">icon_enclosure_doc.png</xsl:if>
+                  <xsl:if test="$isDownloaded='true'">icon_enclosure_doc_done.png</xsl:if>
+              </xsl:when>
+              <xsl:when test="$ext='jpg' or $ext='gif' or $ext='png' or $ext='jpeg' or $ext='bmp'">
+                  <xsl:if test="$isDownloaded='false'">icon_enclosure_picture.png</xsl:if>
+                  <xsl:if test="$isDownloaded='true'">icon_enclosure_picture_done.png</xsl:if>
+              </xsl:when>
+              <xsl:when test="$ext='mp3' or $ext='wma'">
+                  <xsl:if test="$isDownloaded='false'">icon_enclosure_music.gif</xsl:if>
+                  <xsl:if test="$isDownloaded='true'">icon_enclosure_music_done.gif</xsl:if>
+              </xsl:when>
+              <xsl:when test="$ext='avi' or $ext='mov' or $ext='wmv' or $ext='mpg' or $ext='mpe' or $ext='mpeg'">
+                  <xsl:if test="$isDownloaded='false'">icon_enclosure_movie.png</xsl:if>
+                  <xsl:if test="$isDownloaded='true'">icon_enclosure_movie_done.png</xsl:if>
+              </xsl:when>
+              <xsl:when test="$ext='wpl'">
+                  <xsl:if test="$isDownloaded='false'">icon_enclosure_playlist.gif</xsl:if>
+                  <xsl:if test="$isDownloaded='true'">icon_enclosure_playlist_done.gif</xsl:if>
+              </xsl:when>
+              <xsl:otherwise>
+                  <xsl:if test="$isDownloaded='false'">icon_enclosure.png</xsl:if>
+                  <xsl:if test="$isDownloaded='true'">icon_enclosure_done.png</xsl:if>
+              </xsl:otherwise>
+          </xsl:choose>
+      </xsl:variable>
+      
+      <xsl:value-of select="concat('res://ieframe.dll/', $iconFile)"/>
+
+  </xsl:template>
+
+  <xsl:template name="extractFileExtension">
+
+      <xsl:param name="url"/>
+      <xsl:variable name="nextToken" select="substring-before($url, '.')"/>
+      <xsl:variable name="rest" select="substring-after($url, '.')"/>
+
+      <xsl:choose>
+          <xsl:when test="contains($rest, '.')">
+              <xsl:call-template name="extractFileExtension">
+                  <xsl:with-param name="url" select="$rest"/>
+              </xsl:call-template>
+          </xsl:when>
+          <xsl:otherwise>
+              <xsl:variable name="lcletters">abcdefghijklmnopqrstuvwxyz</xsl:variable>
+              <xsl:variable name="ucletters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</xsl:variable>
+              <xsl:value-of select="translate($rest,$ucletters,$lcletters)"/> <!-- lowercase extension -->
+          </xsl:otherwise>
+      </xsl:choose>
+        
+  </xsl:template>
+
+</xsl:stylesheet>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="ltr">
+<head>
+    <base href="res://ieframe.dll">
+    <link rel="stylesheet" type="text/css" href="ErrorPageTemplate.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Не вдалося завантажити інформаційний канал</title>
+
+    <script src="errorPageStrings.js" language="javascript" type="text/javascript">
+    </script>
+
+    <script src="httpErrorPagesScripts.js" language="javascript" type="text/javascript">
+    </script>
+
+</head>
+<body onload="expandCollapse('infoBlockID', true); initGoBack(); initMoreInfo('infoBlockID');">
+    <table width="730" cellpadding="0" cellspacing="0" border="0">
+        <!-- Error title -->
+        <tr>
+            <td id="infoIconAlign" width="60" align="left" valign="top" rowspan="2">
+                <img src="info_48.png" id="infoIcon" alt="Піктограма інформації">
+            </td>
+            <td id="mainTitleAlign" valign="middle" align="left" width="*">
+                <h1 id="mainTitle">
+                    Internet Explorer не вдалося відобразити інформаційний канал</h1>
+            </td>
+        </tr>
+        <tr>
+            <!-- This row is for HTTP status code, as well as the divider-->
+            <td id="errorCodeAlign" class="errorCodeAndDivider" align="right">
+                <div class="divider">
+                </div>
+            </td>
+        </tr>
+        <!-- Error Body -->
+        <tr>
+            <td>
+                &nbsp;
+            </td>
